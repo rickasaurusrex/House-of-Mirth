@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="mirth.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head><del>A Moment's Ornament</del><add>The House of Mirth</add> </head>
+         <p>By</p>
+         <p>Edith Wharton</p>
+         
+         <p rend="bold">BOOK I</p>
+         <div type="chapter">
+            <pb facs="http://babel.hathitrust.org/cgi/imgsrv/image?id=mdp.39015030597051;seq=57"/>
+            
+            <p rend="indent" n="p1"><s type="#scrib" n="0001">Selden paused in surprise.</s>
+               <s type="#scrib" n="0002">In the afternoon rush of the Grand Central Station 
+                  his eyes had been refreshed by the sight of Miss Lily Bart.</s></p>
+            
+            <p rend="indent" n="p1"><s type="#ms" n="0001">Hensley paused in surprise.</s>
+               <s type="#ms" n="0002">In the afternoon rush of the Grand Central Station his eyes had been refreshed by
+                  the sight of <del>a tall &amp; trimly tailored figure, with bright hair under a feather hat. </del><add>Miss Lily Hurst.</add></s></p>
+            
+            <p n="p2"><s type="#scrib" n="0003">It was a Monday in early September, and he was returning to his work from a hurried dip into the country; 
+               but what was Miss Bart doing in town at that season?</s><s type="#scrib" n="0004">If she had appeared to be catching a train, 
+               he might have inferred that he had come on her in the act of transition between one and another of the country-houses which 
+               disputed her presence after the close of the Newport season; but her desultory air perplexed him.</s><s type="#scrib" n="0005">
+               She stood apart from the crowd, letting it drift by her to the platform or the street, and wearing an air of irresolution 
+               which might, as he surmised, be the mask of a very definite purpose.</s><s type="#scrib" n="0006">It struck him at once that 
+               she was waiting for some one, but he hardly knew why the idea arrested him.</s><s type="#scrib" n="0007">There was nothing 
+               new about Lily Bart, yet he could never see her without a faint movement of interest: it was characteristic of her that 
+               she always roused speculation, that her simplest acts seemed the result of far-reaching intentions.</s></p>
+            
+            <p n="p2"><s type="#ms" n="0003">It was <del>an afternoon </del><del>a Monday </del><hi>a Thursday in mid-September,</hi> and he was returning to 
+               <del>his week's</del> work from a <del>Sunday in Long Island</del> hurried dip into the country; 
+               but what was <del>Juliet Hurst</del> Miss Bart doing in town at that season?</s><s type="#ms" n="0004">If she 
+               <del>had the appeared</del> <del>seemed</del> appeared to be catching a train, 
+               he might have inferred that he had come <del>upon</del> on her in the act of transition between one and another of the country-houses which 
+               disputed her presence after <add type="above">close of the</add> Newport season<del> was over</del>; 
+               but her desultory air perplexed him.</s><s type="#ms" n="0005">
+               She stood in detached indifference, letting the <del>hot</del> crowd drift by her to the platform <del>of</del> or the street, and wearing an air of irresolution 
+               which might, as he surmised, be the mask of a very definite purpose.</s><s type="#ms" n="0006">It <del>occurred to him</del> struck him at once that 
+               she <del>might be</del> was waiting <del>to meet</del> for some one, but he hardly knew why the <del>conjecture interested</del> idea arrested him.</s>
+               <s type="#ms" n="0007">There was nothing <del>There was nothing</del>
+               new about <del>Juliet Hurst</del> Lily Bart, yet he could never see her without a <del>vague</del> faint movement of <del>curiosity</del> interest: 
+               it was characteristic of her that 
+               she always roused speculation, that her simplest acts seemed the <del>expression of a complex intention</del> result of complex intentions.</s></p>
+            
+            <p n="p3"><s type="#scrib" n="0008">An impulse of curiosity made him turn out of his direct line to the door, and stroll past her.</s>
+               <s type="scrib" n="0009">He knew that if she did not wish to be seen she would contrive to elude him; and it amused him to think of putting her skill to the test.</s></p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><del>A Moment's Ornament</del><lb></lb><add>The House of Mirth</add> </head>
+         <p>By Edith Wharton</p>  
+         <p rend="bold">BOOK I</p>
+         <p>Key: <s type="bold">Scribner's </s>/ Manuscript</p>
+         <div xml:id="chapter1">
+            <pb facs="http://babel.hathitrust.org/cgi/imgsrv/image?id=mdp.39015030597051;seq=57"/>
+           
+           <!-- lemma 1 -->
+           
+            <p n="scrib">Selden paused in surprise.
+              In the afternoon rush of the Grand Central Station 
+              his eyes had been refreshed by the sight of Miss Lily Bart.</p>
+            
+            <p n="ms"><hi>Hensley</hi> paused in surprise.
+              In the afternoon rush of the Grand Central Station his eyes had been refreshed by
+              the sight of <del>a tall &amp; trimly tailored figure, with bright hair under a feather hat. </del><add>Miss Lily Hurst.</add></p>
+            
+           <!-- lemma 2 -->
+            
+            <p n="scrib">It was a Monday in early September, and he was returning to his work from a hurried dip into the country; 
+              but what was Miss Bart doing in town at that season? If she had appeared to be catching a train, 
+              he might have inferred that he had come on her in the act of transition between one and another of the country-houses which 
+              disputed her presence after the close of the Newport season; but her desultory air perplexed him.
+              She stood apart from the crowd, letting it drift by her to the platform or the street, and wearing an air of irresolution 
+              which might, as he surmised, be the mask of a very definite purpose.It struck him at once that 
+              she was waiting for some one, but he hardly knew why the idea arrested him. There was nothing 
+              new about Lily Bart, yet he could never see her without a faint movement of interest: it was characteristic of her that 
+              she always roused speculation, that her simplest acts seemed the result of far-reaching intentions.</p>
+            
+            <p n="ms">It was <del>an afternoon </del><del>a Monday </del><add>a Thursday in mid-September,</add> and he was returning to 
+              <del>his week's</del> work from a <del>Sunday in Long Island</del> <add>hurried dip into the country</add>; 
+              but what was <del>Juliet Hurst</del> <add>Miss Bart</add> doing in town at that season? If she 
+              <del>had the appeared</del> <del>seemed</del> <add>appeared</add> to be catching a train, 
+              he might have inferred that he had come <del>upon</del> <add>on</add> her in the act of transition between one and another of the country-houses which 
+              disputed her presence after <add place="above">close of the</add> Newport season<del> was over</del>; 
+              but her desultory air perplexed him.
+              She stood in detached indifference, letting the <del>hot</del> crowd drift by her to the platform <del>of</del> or the street, and wearing an air of irresolution 
+              which might, as he surmised, be the mask of a very definite purpose. It <del>occurred to him</del> struck him at once that 
+              she <del>might be</del> was waiting <del>to meet</del> for some one, but he hardly knew why the <del>conjecture interested</del> idea arrested him.
+              There was nothing <del>There was nothing</del>
+              new about <del>Juliet Hurst</del> Lily Bart, yet he could never see her without a <del>vague</del> faint movement of <del>curiosity</del> interest: 
+              it was characteristic of her that 
+              she always roused speculation, that her simplest acts seemed the <del>expression of a complex intention</del> result of complex intentions.</p>
+            
+           <!-- lemma 3 -->
+            
+            <p n="scrib">An impulse of curiosity made him turn out of his direct line to the door, and stroll past her.
+              He knew that if she did not wish to be seen she would contrive to elude him; and it amused him to think of putting her skill to the test.</p>
+         
+            <p n="ms">An <del>a random</del> impulse <add place="above">of curiosity</add> made <del>Hensley</del> <add>Selden</add> turn out of his direct line to the door, and stroll past her 
+              <del>as she stood in vague expectancy</del>.
+              <add place="above">He knew that if</add> <del>If</del> she did not wish to be seen <del>, he knew that</del> she would <del>easily contrive to</del>
+              <add place="above">contrive to</add> elude him; and it amused him to think of putting her <add place="above">ingenuity</add> ingenuity to the test.</p>
+           
+           <!-- lemma 4 -->
+           
+            <p n="scrib">"Mr. Selden--what good luck!"</p>
+           
+            <p n="ms">"Mr. <del>Hensley</del> <add place="above">Selden</add>--what good luck!"</p>
+           
+           <!-- lemma 5 -->
+           
+            <p n="scrib">She came forward smiling, eager almost, in her resolve to intercept him. One or two persons, in brushing past them, lingered to look; 
+              for Miss Bart was a figure to arrest even the suburban traveller rushing to his last train.  </p>
+           
+            <p n="ms">She <del>advanced</del> <add>came forward</add> smiling, <del>almost eager</del><add> eager almost</add>, in her <del>determination</del>
+              <add>resolve</add> to intercept him. One or two persons, in brushing past them, lingered to look; 
+              for <hi>Miss Hurst</hi> was a figure to arrest even the suburban <del>traveller</del> rushing to his last train.  </p>
+           
+           <!-- lemma 6 -->
+           
+            <p n="scrib">Selden had never seen her more radiant. Her vivid head, relieved against the dull tints of the crowd, 
+              made her more conspicuous than in a ball-room, and under her dark hat and veil she regained the girlish smoothness, 
+              the purity of tint, that she was beginning to lose after eleven years of late hours and indefatigable dancing. 
+              Was it really eleven years, Selden found himself wondering, and had she indeed reached the nine-and-twentieth birthday 
+              with which her rivals credited her?</p>
+         
+            <p n="ms"><del>Hensley</del> <add place="above">Selden</add> <del>thought he</del> had never seen her more radiant. 
+              Her vivid head, relieved against the dull <del>flesh</del> tints of the crowd, 
+              made her more conspicuous than in a ball-room, &amp; <del>in with the vague light faintly-diffused light of the semi-twilight of the waiting room</del> 
+              <add place="above">under her dark hat and veil</add> she regained the girlish smoothness, 
+              the purity of tint, that she was beginning to lose after eleven years of late hours and indefatigable dancing. 
+              Was it really eleven years, Selden found himself wondering, and had she indeed reached the nine-and-twentieth birthday 
+              with which her <del>friends charged</del> <add>rivals credited</add> her?</p>
+           
+           <!-- lemma 7 -->
+           
+            <p n="scrib">"What luck!" she repeated. "How nice of you to come to my rescue!"</p>
+           
+            <p n="ms">"What luck!" she repeated. "How nice of you to come to my rescue!"</p>
+           
+           <!-- lemma 8 -->
+           
+            <p n="scrib">He responded joyfully that to do so was his mission in life, and asked what form the rescue was to take.</p>
+         
+            <p n="ms"><del>He responded joyfully that he was there for that purpose, &amp; asked from what monster she wished he could deliver her.</del>
+              <del>"Oh,</del> He responded <add place="above">joyfully</add> that to do so was his mission in life, and asked <del>joyfully</del> 
+              what he could <add place="above">do for her.</add></p>
+           
+           <!-- lemma 9 -->
+           
+            <p n="scrib">"Oh, almost any--even to sitting on a bench and talking to me.  One sits out a cotillion--why not sit out a train? 
+              It isn't a bit hotter here than in Mrs. Van Osburgh's conservatory--and some of the women are not a bit uglier."  </p>
+           
+            <p n="ms">"Oh, almost <hi>anything</hi>--even to sitting on a bench and talking to me.  One sits out a cotillion--why not <add place="above">sit out</add> a train? 
+              It isn't a bit hotter <add place="above">here</add> than in Mrs. Van Osburgh's conservatory--and some of the women are not a bit uglier."  </p>
+           
+           <!-- lemma 10 -->
+           
+            <p n="scrib">She broke off, laughing, to explain that she had come up to town from Tuxedo, on her way to the Gus Trenors' at Bellomont, 
+              and had missed the three-fifteen train to Rhinebeck.</p>
+           
+            <p n="ms">She broke off, laughing, to explain that she had come up to town from Tuxedo, <del>&amp;</del> on her way to the Gus Trenors' at Bellomont, 
+              and had missed the three-fifteen train to Rhinebeck.</p>
+           
+           <!-- lemma 11 -->
+           
+            <p n="scrib">"And there isn't another till half-past five." She consulted the little jewelled watch among her laces.  
+              "Just two hours to wait. And I don't know what to do with myself. 
+              My maid came up this morning to do some shopping for me, and was to go on to Bellomont at one o'clock, 
+              and my aunt's house is closed, and I don't know a soul in town." She glanced plaintively about the station. 
+              "It is hotter than Mrs. Van Osburgh's, after all. If you can spare the time, do take me somewhere for a breath of air."</p>
+           
+            <p n="ms">"And there isn't another till half-past five." She consulted <del>her</del> <add place="above">the</add> little jewelled watch 
+              <add place="above">among her laces.</add> "Just two hours to wait. And I don't know <del>where on earth to go</del> 
+              <add place="above">what to do with myself.</add> 
+              My maid came up this morning to do some shopping for me, &amp; <del>of course she must have</del> 
+              was to <del>take the one o'clock train to Rhinebeck</del><add place="above">go on to Bellomont at one o'clock,</add> 
+              and my aunt's house is closed, and I don't know a soul in town." She glanced plaintively about the station. 
+              "It is hotter than Mrs. Van Osburgh's, <del>after all</del> <add place="above">after all.</add> If you can spare the time, do take me somewhere for a breath of air."</p>
+           
+           <!-- lemma 12 -->
+           
+            <p n="scrib">He declared himself entirely at her disposal: the adventure struck him as diverting. As a spectator, 
+              he had always enjoyed Lily Bart; and his course lay so far out of her orbit that it amused him to be drawn 
+              for a moment into the sudden intimacy which her proposal implied.</p>
+           
+            <p n="ms">He declared himself entirely at her disposal: <del>&amp;hav</del> the adventure struck him as <del>rather amusing</del> 
+              <del n="above">entertaining</del> <add place="above">diverting.</add> <add>As a spectator he had</add> <del>
+              he had</del> always enjoyed <del>Juliet</del> <add place="above">Lily</add> <hi>Hurst</hi> <del>as a looker on</del>; and his course lay so far out of her orbit that it amused him to be drawn 
+              for a moment into the sudden intimacy which her proposal implied.</p>
+          
+           
+         </div>
+      </body>
+   </text>
+</TEI>
